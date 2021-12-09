@@ -41,7 +41,8 @@ def start_markup(chat_id: int, bot_username: str):
             ],
             [
                 InlineKeyboardButton(gm(chat_id, "helpbutton"), callback_data="cbhelp"),
-                InlineKeyboardButton("Owner"), url="https://t.me/rumahakhirat"),
+                InlineKeyboardButton("Owner"), url="https://t.me/rumahakhirat"
+                ),
             ],
             [
                 InlineKeyboardButton(gm(chat_id, "channel"), url=config.CHANNEL_LINK),
