@@ -35,20 +35,20 @@ def start_markup(chat_id: int, bot_username: str):
         [
             [
                 InlineKeyboardButton(
-                    gm(chat_id, "➕ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕"),
+                    gm(chat_id, "ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ"),
                     url=f"https://t.me/{bot_username}?startgroup=true",
                 )
             ],
             [
                 InlineKeyboardButton(gm(chat_id, "helpbutton"), callback_data="cbhelp"),
                 InlineKeyboardButton(
-                    gm(chat_id, "👑ᴏᴡɴᴇʀ👑"), url="https://t.me/rumahakhirat"
+                    gm(chat_id, "ᴏᴡɴᴇʀ"), url="https://t.me/rumahakhirat"
                 ),
             ],
             [
-                InlineKeyboardButton(gm(chat_id, "🔰ᴄʜᴀɴɴᴇʟ🔰"), url=config.CHANNEL_LINK),
+                InlineKeyboardButton(gm(chat_id, "ᴄʜᴀɴɴᴇʟ"), url=config.CHANNEL_LINK),
                 InlineKeyboardButton(
-                    gm(chat_id, "🔰ꜱᴜᴘᴘᴏʀᴛ🔰"), url=config.GROUP_LINK
+                    gm(chat_id, "ꜱᴜᴘᴘᴏʀᴛ"), url=config.GROUP_LINK
                 )
             ],
         ]
